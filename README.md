@@ -26,6 +26,7 @@ A.  Display Filter
 
 4.	Temukan paket dari web-web yang menggunakan basic authentication method!
     *	Ketik wireshark display filter berikut: http.authbasic
+    (https://github.com/fvldi/Jarkom_Modul1_Lapres_T14/blob/main/Gambar/4a.PNG)
     * Maka akan diketahui web-web yang menggunakan basic aunthentication method : "aku.pengen.pw" dan "testing.mekanis.me"
 
 5.	Ikuti perintah di aku.pengen.pw! Username dan password bisa didapatkan dari file .pcapng!
