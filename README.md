@@ -9,27 +9,27 @@
 A.  Display Filter
 
 1.	Sebutkan webserver yang digunakan pada "testing.mekanis.me"!
-    •	Ketik wireshark disiplay filter berikut: http.host=="testing.mekanisme.me"
-    •	Klik kanan pada paket teratas > Follow > TCP Stream
-    •	Maka didapat hasil sebagai berikut:
+    *	Ketik wireshark disiplay filter berikut: http.host=="testing.mekanisme.me"
+    *	Klik kanan pada paket teratas > Follow > TCP Stream
+    *	Maka didapat hasil sebagai berikut:
     
 2.	Simpan gambar "Tim_Kunjungan_Kerja_BAKN_DPR_RI_ke_Sukabumi141436.jpg"!
-    •	Klik menu File > Export Objects > HTTP… maka akan muncul windows berisi deretan file yang tersedia.
-    •	Tuliskan pada Text Filter “Tim_Kunjungan_Kerja_BAKN_DPR_RI_ke_Sukabumi141436.jpg”
-    •	Maka didapatlah gambar sebagai berikut:
+    *	Klik menu File > Export Objects > HTTP… maka akan muncul windows berisi deretan file yang tersedia.
+    *	Tuliskan pada Text Filter “Tim_Kunjungan_Kerja_BAKN_DPR_RI_ke_Sukabumi141436.jpg”
+    *	Maka didapatlah gambar sebagai berikut:
     
 3.	Cari username dan password ketika login di "ppid.dpr.go.id"!
-    •	Ketik wireshark filter expression berikut: http.host=="ppid.dpr.go.id"
-    •	Maka akan didapat Informasi sebagai berikut:
+    *	Ketik wireshark filter expression berikut: http.host=="ppid.dpr.go.id"
+    *	Maka akan didapat Informasi sebagai berikut:
     Username: 10pemuda
     Password: guncangdunia
 
 4.	Temukan paket dari web-web yang menggunakan basic authentication method!
-    •	Contoh webnya yaitu aku.pengen.pw, maka ketik pada wireshark filter expression berikut: http.host=="aku.pengen.pw”
+    *	Contoh webnya yaitu aku.pengen.pw, maka ketik pada wireshark filter expression berikut: http.host=="aku.pengen.pw”
 
 5.	Ikuti perintah di aku.pengen.pw! Username dan password bisa didapatkan dari file .pcapng!
-    •	Ketik wireshark filter expression berikut: http.host=="aku.pengen.pw”
-    •	Maka didapatlah:
+    *	Ketik wireshark filter expression berikut: http.host=="aku.pengen.pw”
+    *	Maka didapatlah:
     Username: kakakgamtenk 
     Password: hartatahtabermuda
 
