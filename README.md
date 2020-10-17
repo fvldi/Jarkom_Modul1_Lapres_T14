@@ -5,3 +5,63 @@
 2. Muhamad Rifaldi - 05311840000022
 
 ## I. Soal
+
+A.  Display Filter
+
+1.	Sebutkan webserver yang digunakan pada "testing.mekanis.me"!
+    •	Ketik wireshark disiplay filter berikut: http.host=="testing.mekanisme.me"
+    •	Klik kanan pada paket teratas > Follow > TCP Stream
+    •	Maka didapat hasil sebagai berikut:
+    
+2.	Simpan gambar "Tim_Kunjungan_Kerja_BAKN_DPR_RI_ke_Sukabumi141436.jpg"!
+    •	Klik menu File > Export Objects > HTTP… maka akan muncul windows berisi deretan file yang tersedia.
+    •	Tuliskan pada Text Filter “Tim_Kunjungan_Kerja_BAKN_DPR_RI_ke_Sukabumi141436.jpg”
+    •	Maka didapatlah gambar sebagai berikut:
+    
+3.	Cari username dan password ketika login di "ppid.dpr.go.id"!
+    •	Ketik wireshark filter expression berikut: http.host=="ppid.dpr.go.id"
+    •	Maka akan didapat Informasi sebagai berikut:
+    Username: 10pemuda
+    Password: guncangdunia
+
+4.	Temukan paket dari web-web yang menggunakan basic authentication method!
+    •	Contoh webnya yaitu aku.pengen.pw, maka ketik pada wireshark filter expression berikut: http.host=="aku.pengen.pw”
+
+5.	Ikuti perintah di aku.pengen.pw! Username dan password bisa didapatkan dari file .pcapng!
+    •	Ketik wireshark filter expression berikut: http.host=="aku.pengen.pw”
+    •	Maka didapatlah:
+    Username: kakakgamtenk 
+    Password: hartatahtabermuda
+
+    Kemudian berikut isi dari website “aku.pengen.pw” beserta jawaban dari soal yang tertera:
+    
+6.	Seseorang menyimpan file zip melalui FTP dengan nama "Answer.zip". Simpan dan Buka file "Open This.pdf" di Answer.zip. Untuk mendapatkan password zipnya, temukan dalam file     zipkey.txt (passwordnya adalah isi dari file txt tersebut).
+    •	Ketik wireshark filter expression berikut: ftp-data.command contains .txt untuk mengetahui password pada file zipkey.txt
+
+7.	Ada 500 file zip yang disimpan ke FTP Server dengan nama 1.zip, 2.zip, ..., 500.zip. Salah satunya berisi pdf yang berisi puisi. Simpan dan Buka file pdf tersebut.
+    Your Super Mega Ultra Rare Hint = nama pdf-nya "Yes.pdf"
+
+8.	Cari objek apa saja yang didownload (RETR) dari koneksi FTP dengan Microsoft FTP Service!
+
+9.	Cari username dan password ketika login FTP pada localhost!
+    •	ketik display filter expression: ftp
+    
+10.	Cari file .pdf di wireshark lalu download dan buka file tersebut!
+    clue: "25 50 44 46"
+    •	Search dengan kategoti hexa sebagai berikut:
+        
+B. Capture Filter
+
+11. Filter sehingga wireshark hanya mengambil paket yang mengandung port 21!
+
+12. Filter sehingga wireshark hanya mengambil paket yang berasal dari port 80!
+
+13. Filter sehingga wireshark hanya menampilkan paket yang menuju port 443!
+
+14. Filter sehingga wireshark hanya mengambil paket yang berasal dari ip kalian!
+
+15. Filter sehingga wireshark hanya mengambil paket yang tujuannya ke monta.if.its.ac.id!
+
+
+
+    
