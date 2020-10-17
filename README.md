@@ -46,13 +46,15 @@ A.  Display Filter
     Your Super Mega Ultra Rare Hint = nama pdf-nya "Yes.pdf"
 
 8.	Cari objek apa saja yang didownload (RETR) dari koneksi FTP dengan Microsoft FTP Service!
+   * Ketik display filter : ftp contains "Microsoft"
+   * Maka akan mendapatkan paket dari koneksi FTP dengan Microsoft FTP Service
 
 9.	Cari username dan password ketika login FTP pada localhost!
     *	Ketik display filter: ftp , dan filter menggunakan regular expression : User
     * Kemudian follow -> TCP stream dan didapatkan username dan password nya
     
     
-10.	Cari file .pdf di wireshark lalu download dan buka file tersebut!
+10. Cari file .pdf di wireshark lalu download dan buka file tersebut!
     clue: "25 50 44 46"
     *	Search dengan kategoti hexa sebagai berikut:
         
