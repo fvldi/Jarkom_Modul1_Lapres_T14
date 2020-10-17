@@ -10,21 +10,21 @@ A.  Display Filter
 
 1.	Sebutkan webserver yang digunakan pada "testing.mekanis.me"!
     *	Ketik wireshark display filter berikut: http.host=="testing.mekanis.me"
-    ![](https://github.com/fvldi/Jarkom_Modul1_Lapres_T14/blob/main/Gambar/1a.JPG)
+    ![](https://github.com/fvldi/Jarkom_Modul1_Lapres_T14/blob/main/Gambar/1a.jpg)
     *	Klik kanan pada paket teratas > Follow > TCP Stream
     *	Maka didapat hasil sebagai berikut:
-    ![](https://github.com/fvldi/Jarkom_Modul1_Lapres_T14/blob/main/Gambar/1b.JPG)
+    ![](https://github.com/fvldi/Jarkom_Modul1_Lapres_T14/blob/main/Gambar/1b.jpg)
     
 2.	Simpan gambar "Tim_Kunjungan_Kerja_BAKN_DPR_RI_ke_Sukabumi141436.jpg"!
     *	Klik menu File > Export Objects > HTTP… maka akan muncul windows berisi deretan file yang tersedia.
     *	Tuliskan pada Text Filter “Tim_Kunjungan_Kerja_BAKN_DPR_RI_ke_Sukabumi141436.jpg”
-    ![](https://github.com/fvldi/Jarkom_Modul1_Lapres_T14/blob/main/Gambar/2a.JPG)
+    ![](https://github.com/fvldi/Jarkom_Modul1_Lapres_T14/blob/main/Gambar/2a.jpg)
     *	Maka didapatlah gambar sebagai berikut:
-    ![](https://github.com/fvldi/Jarkom_Modul1_Lapres_T14/blob/main/Gambar/2b.JPG)
+    ![](https://github.com/fvldi/Jarkom_Modul1_Lapres_T14/blob/main/Gambar/2b.jpg)
     
 3.	Cari username dan password ketika login di "ppid.dpr.go.id"!
     *	Ketik wireshark display filter berikut: http.host=="ppid.dpr.go.id"
-    ![](https://github.com/fvldi/Jarkom_Modul1_Lapres_T14/blob/main/Gambar/3a.JPG)
+    ![](https://github.com/fvldi/Jarkom_Modul1_Lapres_T14/blob/main/Gambar/3a.jpg)
     *	Maka akan didapat Informasi sebagai berikut:
     Username: 10pemuda
     Password: guncangdunia
@@ -40,9 +40,9 @@ A.  Display Filter
     *	Maka didapatlah:
     Username: kakakgamtenk 
     Password: hartatahtabermuda
-    ![](https://github.com/fvldi/Jarkom_Modul1_Lapres_T14/blob/main/Gambar/5a.JPG)
+    ![](https://github.com/fvldi/Jarkom_Modul1_Lapres_T14/blob/main/Gambar/5a.jpg)
     * Kemudian berikut isi dari website “aku.pengen.pw” beserta jawaban dari soal yang tertera:
-    ![](https://github.com/fvldi/Jarkom_Modul1_Lapres_T14/blob/main/Gambar/5b.JPG)
+    ![](https://github.com/fvldi/Jarkom_Modul1_Lapres_T14/blob/main/Gambar/5b.jpg)
     
 6.	Seseorang menyimpan file zip melalui FTP dengan nama "Answer.zip". Simpan dan Buka file "Open This.pdf" di Answer.zip. Untuk mendapatkan password zipnya, temukan dalam file     zipkey.txt (passwordnya adalah isi dari file txt tersebut).
    *  Ketik wireshark display filter berikut : ftp-data
