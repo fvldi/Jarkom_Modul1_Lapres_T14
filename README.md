@@ -9,7 +9,7 @@
 A.  Display Filter
 
 1.	Sebutkan webserver yang digunakan pada "testing.mekanis.me"!
-    *	Ketik wireshark disiplay filter berikut: http.host=="testing.mekanisme.me"
+    *	Ketik wireshark display filter berikut: http.host=="testing.mekanis.me"
     *	Klik kanan pada paket teratas > Follow > TCP Stream
     *	Maka didapat hasil sebagai berikut:
     
@@ -19,24 +19,28 @@ A.  Display Filter
     *	Maka didapatlah gambar sebagai berikut:
     
 3.	Cari username dan password ketika login di "ppid.dpr.go.id"!
-    *	Ketik wireshark filter expression berikut: http.host=="ppid.dpr.go.id"
+    *	Ketik wireshark display filter berikut: http.host=="ppid.dpr.go.id"
     *	Maka akan didapat Informasi sebagai berikut:
     Username: 10pemuda
     Password: guncangdunia
 
 4.	Temukan paket dari web-web yang menggunakan basic authentication method!
-    *	Contoh webnya yaitu aku.pengen.pw, maka ketik pada wireshark filter expression berikut: http.host=="aku.pengen.pw”
+    *	Ketik wireshark display filter berikut: http.authbasic
+    * Maka akan diketahui web-web yang menggunakan basic aunthentication method : "aku.pengen.pw" dan "testing.mekanis.me"
 
 5.	Ikuti perintah di aku.pengen.pw! Username dan password bisa didapatkan dari file .pcapng!
-    *	Ketik wireshark filter expression berikut: http.host=="aku.pengen.pw”
+    *	Ketik wireshark display filter berikut: http.host=="aku.pengen.pw”
     *	Maka didapatlah:
     Username: kakakgamtenk 
     Password: hartatahtabermuda
-
-    Kemudian berikut isi dari website “aku.pengen.pw” beserta jawaban dari soal yang tertera:
+    * Kemudian berikut isi dari website “aku.pengen.pw” beserta jawaban dari soal yang tertera:
     
 6.	Seseorang menyimpan file zip melalui FTP dengan nama "Answer.zip". Simpan dan Buka file "Open This.pdf" di Answer.zip. Untuk mendapatkan password zipnya, temukan dalam file     zipkey.txt (passwordnya adalah isi dari file txt tersebut).
-    •	Ketik wireshark filter expression berikut: ftp-data.command contains .txt untuk mengetahui password pada file zipkey.txt
+   *  Ketik wireshark display filter berikut : ftp-data
+   *  Lalu klik pada Answer.zip kemudian follow -> TCP stream
+   *  Lalu save as menggunakan raw dan beri nama Answer.zip
+   *  Kemudian buka dan extract file Answer.zip dan masukkan password
+   *	Ketik wireshark display filter berikut: ftp-data.command contains .txt untuk mengetahui password pada file zipkey.txt
 
 7.	Ada 500 file zip yang disimpan ke FTP Server dengan nama 1.zip, 2.zip, ..., 500.zip. Salah satunya berisi pdf yang berisi puisi. Simpan dan Buka file pdf tersebut.
     Your Super Mega Ultra Rare Hint = nama pdf-nya "Yes.pdf"
@@ -44,11 +48,13 @@ A.  Display Filter
 8.	Cari objek apa saja yang didownload (RETR) dari koneksi FTP dengan Microsoft FTP Service!
 
 9.	Cari username dan password ketika login FTP pada localhost!
-    •	ketik display filter expression: ftp
+    *	Ketik display filter: ftp , dan filter menggunakan regular expression : User
+    * Kemudian follow -> TCP stream dan didapatkan username dan password nya
+    
     
 10.	Cari file .pdf di wireshark lalu download dan buka file tersebut!
     clue: "25 50 44 46"
-    •	Search dengan kategoti hexa sebagai berikut:
+    *	Search dengan kategoti hexa sebagai berikut:
         
 B. Capture Filter
 
