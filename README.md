@@ -212,7 +212,7 @@ port 21
 
 ![Step 1](./images/No11/t1411.jpg/)
 
-### No. 12
+### Soal No. 12
 
 Filter sehingga wireshark hanya mengambil paket yang berasal dari port 80!
 
@@ -226,7 +226,7 @@ src port 21
 
 ![Step 1](./images/No12/t1412.jpg/)
 
-### No. 13
+### Soal No. 13
 
 Filter sehingga wireshark hanya mengambil paket yang menuju  port 443!
 
@@ -240,7 +240,7 @@ dst port 443
 
 ![Step 1](./images/No13/t1413.jpg/)
 
-### No. 14
+### Soal No. 14
 
 Filter sehingga wireshark hanya mengambil paket yang berasal dari ip kalian!
 
@@ -258,7 +258,7 @@ src 192.168.100.2
 
 ![Step 1](./images/No14/t1414.jpg/)
 
-### No. 15
+### Soal No. 15
 
 Filter sehingga wireshark hanya mengambil paket yang tujuannya ke monta.if.its.ac.id!
 
