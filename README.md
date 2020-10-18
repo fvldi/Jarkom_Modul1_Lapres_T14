@@ -42,7 +42,7 @@ HTTP
 
 2. Pilih menu file >> Export Object >> http
 
-![step 2](./images/no2/t1402be.jpg/)
+![step 2](https://raw.githubusercontent.com/fvldi/Jarkom_Modul1_Lapres_T14/main/images/No2/t1402be.jpg)
 
 3. Cari file gambar "Tim_Kunjungan_Kerja_BAKN_DPR_RI_ke_Sukabumi141436.jpg", kemudian Save.
 
