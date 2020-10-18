@@ -175,7 +175,7 @@ Cari username dan password ketika login FTP pada localhost!
 
 2. Kemudian follow TCP stream, didapatlah username dan password nya sebagai berikut
 
-![step 2](./images/no9/t1409b.png/)
+![step 2](https://raw.githubusercontent.com/fvldi/Jarkom_Modul1_Lapres_T14/main/images/No9/t1409b.png)
 
 ### Soal No. 10
 
