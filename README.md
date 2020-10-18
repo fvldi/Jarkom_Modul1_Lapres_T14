@@ -124,7 +124,7 @@ ftp-data
 
 4. Unzip file "Answer.zip" menggunakan password tersebut, kemudian Buka file "Open This.pdf". Maka akan tampil sebagai berikut
 
-![step 4](./images/no6/t1406d.jpg/)
+![step 4](https://raw.githubusercontent.com/fvldi/Jarkom_Modul1_Lapres_T14/main/images/No6/t1406d.jpg)
 
 ### Soal No. 7
 
