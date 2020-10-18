@@ -50,7 +50,7 @@ HTTP
 
 4. Buka file gambar, maka akan tampil sebagai berikut
 
-![step 4](./images/no2/Tim_Kunjungan_Kerja_BAKN_DPR_RI_ke_Sukabumi141436.jpg)
+![step 4](https://raw.githubusercontent.com/fvldi/Jarkom_Modul1_Lapres_T14/main/images/No2/Tim_Kunjungan_Kerja_BAKN_DPR_RI_ke_Sukabumi141436.jpg)
 
 ### Soal No. 3
 
