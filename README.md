@@ -147,7 +147,7 @@ ftp-data contains "Yes.pdf"
 
 3. Unzip file zip tersebut, kemudian buka file "Yes.pdf" didalamnya. Maka akan tampil sebagai berikut
 
-![step 3](./images/no7/t1407c.jpg/)
+![step 3](https://raw.githubusercontent.com/fvldi/Jarkom_Modul1_Lapres_T14/main/images/No7/t1407c.jpg)
 
 ### Soal No. 8
 
